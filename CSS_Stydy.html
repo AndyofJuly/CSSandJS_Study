@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+
+<!--    <link rel="stylesheet" type="text/css" href="a.css">-->
+
+<!--    <style type="text/css">
+        a{
+            font-size: 20px;
+            color: #ffb74b;
+        }
+    </style>&lt;!&ndash;元素内嵌样式表&ndash;&gt;&lt;!&ndash;开头可以为*/a/p&ndash;&gt;-->
+
+<!--    <style type="text/css">
+        .class1{
+            font-size: 20px;
+            color: #ffb74b;
+        }
+    </style>&lt;!&ndash;类属性选择元素.class1&ndash;&gt;&lt;!&ndash;id选择器#id&ndash;&gt;&lt;!&ndash;属性选择器[]&ndash;&gt;-->
+
+
+<!--    <style type="text/css">
+        a{
+            font-size: 20px;
+            color: #ffb74b;
+        }
+        a:hover{
+            font-size: 50px;
+            color: #ffa9d5;
+        }
+    </style>-->
+
+<!--    <style type="text/css">
+        .class2{
+            border-width: 16px;
+            border-color: #41b8ff;
+            border-style: solid;
+            border-top-color: #ff2432;
+            border-bottom-style:dashed;
+        }
+    </style>-->
+
+<!--    <style type="text/css">
+        .class2{
+            width:999px;
+            height:587px;
+            border:20px solid #41b8ff;
+            /*background-color: #ffdcc8;*/
+            background-image: url(bac.jpg);
+        }
+        .class3{
+            width:250px;
+            height:250px;
+            border:20px solid black;
+            background-color: antiquewhite;
+            border-radius: 50px/50px;
+        }
+    </style>-->
+
+    <style type="text/css">
+        .class4{
+            /*text-align: center;*/
+            /*direction: ltr;*/
+            /*letter-spacing: 20px;*/
+            /*word-spacing: 50px;*/
+            /*line-height: 100px;*/
+            /*text-indent: 100px;*/
+            /*text-decoration: underline;*/
+            text-transform: capitalize;
+        }
+    </style>
+
+    <style type="text/css">
+        .class5{
+            font-family: Consolas;
+            font-size: 20px;
+            font-style: italic;
+        }
+        .class6{
+            font-weight: 900;
+            text-shadow: 5px 5px 1px red;
+        }
+    </style>
+
+<!--    <style type="text/css">
+        p{
+            width:100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        p:hover{
+            width:200px;
+            height: 200px;
+            background-color: #ffad2a;
+            transition-delay: 150ms;
+            transition-duration: 500ms;
+            transition-timing-function: ease-in;
+        }
+    </style>-->
+
+<!--    <style type="text/css">
+        p{
+            width:100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        p:hover{
+            animation-duration: 1000ms;
+            animation-delay: 200ms;
+            animation-name:violet;
+            animation-iteration-count: 6;
+            animation-direction: alternate;
+        }
+        @keyframes violet {
+/*            from{
+                width:150px;
+                height: 150px;
+                background-color: slateblue;
+            }*/
+            to{
+                width:200px;
+                height: 200px;
+                background-color: #ffad2a;
+            }
+        }
+    </style>-->
+
+<!--    <style type="text/css">
+        p{
+            width:100px;
+            height: 100px;
+            background-color: antiquewhite;
+        }
+        p:hover{
+            width:100px;
+            height: 100px;
+            background-color: antiquewhite;
+            transform: rotate(45deg);
+            /*transform:scale(1.5);*/
+            transform-origin:top right;
+        }
+    </style>-->
+
+<!--    <style type="text/css">
+        .div{
+            text-align: center;
+        }
+        .img{
+            margin-top:130px;
+            width:640px;
+            height:905px;
+        }
+        html:hover .img{
+/*            animation-name:img;
+            animation-delay:500ms;
+            animation-duration:1s;
+            animation-fill-mode: forwards;*/
+            transition-delay: 500ms;
+            transition-duration:1s;
+            width:90px;
+            height: 120px;
+            margin-top:0px;
+
+        }
+/*        @keyframes img {
+            to{
+                width:90px;
+                height: 120px;
+                margin-top:0px;
+            }
+        }*/
+        p{
+            font-family: Consolas;
+            font-size: 40px;
+            text-shadow:1px 1px 2px #b0b0b0;
+            opacity: 1;
+        }
+        html:hover p{
+            transition-delay:500ms;
+            transition-duration: 1s;
+            font-family: Consolas;
+            font-size: 40px;
+            text-shadow:1px 1px 2px #b0b0b0;
+            opacity: 0;
+        }
+    </style>-->
+
+    <style type="text/css">
+        .class7{
+            border: 1px solid black;
+            background-color:antiquewhite;
+            /*padding:100px 80px 50px 30px;*/
+/*            padding-top:100px;
+            padding-left:100px;
+            padding-right:100px;
+            padding-bottom: 100px;*/
+            background-clip:content-box;
+            margin-top:100px;
+            margin-left:100px;
+            margin-right:100px;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1 align="center">技术栈二：CSS</h1>
+<a style="font-size: 20px;color: deeppink;">友情提醒：配套视频学习时，需要手动注释代码或取消注释才能看到效果，特别是头文件中的style样式</a>
+
+<h2>第一部分-CSS初步</h2>
+<br/><br/><b>1.元素内嵌样式表</b><br/>
+<a style="font-size: 20px;color: #bf3eff;">本章将学习CSS</a>
+<br><br>
+
+<br/><br/><b>2.元素文档内嵌样式表和外部样式表（都是在head里面书写）</b><br/>
+<a>千与千寻</a>
+
+<br><br>
+
+
+<h2>第二部分-CSS选择器</h2>
+
+<br/><br/><b>1.类型选择元素和选择所有元素</b><br/><br/>
+<a>龙猫</a>
+<p>幽灵公主</p>
+
+<br/><br/><b>2.根据类选择元素（与id元素类似，不过id是唯一身份标志）</b><br/>
+<a class="class1">风之谷</a><br><br/>
+<a>风之谷</a>
+<p>起风了</p>
+
+<br/><br/><b>3.冒号选择器，鼠标移到文字部分，文字会变色或变大</b><br/><br/>
+
+<h2>第三部分-创建边框和背景</h2>
+<br/><br/><b>1.边框</b><br/><br/>
+<p class="class2">紫罗兰</p>
+
+<br/><br/><b>2.背景-圆弧</b><br/><br/>
+<p class="class3">**花园**</p>
+
+<h2>第四部分-文本样式上</h2>
+<!--<p class="class4">哈尔的移动城堡</p>-->
+<!--
+<p class="class4">Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World Hello World</p>
+-->
+<!--<p class="class4">哈尔的移动城堡</p>-->
+<p class="class4">hello world</p>
+
+<h2>第五部分-文本样式下</h2>
+<p class="class5">Hello World</p>
+<p style="font-family: Algerian">Hello World</p>
+<br>
+<p>辉夜大小姐想对我告白</p>
+<p class="class6">辉夜大小姐想对我告白</p>
+
+<h2>第六部分-CSS创建文本过渡</h2>
+
+<h2>第七部分-CSS使用动画</h2>
+
+<h2>第八部分-CSS使用变换</h2>
+
+<h2>第九部分-HTML动画过渡实例</h2>
+<div class="div">
+    <img src="v.jpg" class="img">
+    <p>薇尔莉特</p>
+</div>
+
+<h2>第十部分-CSS盒子模型-排版使用</h2>
+
+<div class="class7">
+大鱼海棠
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
